@@ -1,9 +1,14 @@
 # Telecoms Churn Analysis + Dashboard
 *A Data Analytics & Visualization Project using Python & Tableau*
+### 📍 Overview 
+In this project I analyze customer churn for a Telecommunications company using Python and create an interactive Tableau dashboard for intuitive insights.
 ### 📖 Context 
-Churn or Churn Rate according to Investopedia is the "**rate at which customers stop doing business with an entity.**" Understanding how Churn affects your business is crucial. Good customer retention strategy starts by understanding: 
+#### <ins>Churn<ins>
+Churn or churn rate according to Investopedia is the "**rate at which customers stop doing business with an entity.**" Understanding how churn affects your business is crucial. Good customer retention strategy starts with understanding: 
 - Why customers are leaving
 - Which types of customers are leaving
-- And at which rate they're leaving.
+- And at what rate they're leaving
 
-To drive the point further, without understanding crucial metrics like Churn Rate you are flying blind. Insights provided via the data are the eyes of a business. It's only possible to solve a problem by first identifying it exists at all. Current machine learning models provide strong tools to analyze churn data and discover deep insights that help answer the questions listed above. 
+To drive the point home, without a thorough understanding of KPI metrics like Churn Rate you are effectively flying blind. Insights provided via data are the eyes and ears of a business. It only becomes possible to solve and understand a problem by being aware of its existance and depth. Current machine learning models provide us strong tools that help us do this. 
+
+<ins>Data<ins>
