@@ -1,5 +1,4 @@
 # Telecoms Churn Analysis + Dashboard
-*A Data Analytics & Visualization Project using Python & Tableau*
 ### 📍 Overview 
 In this project I build a predictive churn model for a Telecommunications company using Python and create an interactive Tableau dashboard for intuitive insights.
 ### 📖 Context 
