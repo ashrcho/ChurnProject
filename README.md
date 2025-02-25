@@ -30,3 +30,11 @@ The dataset I use comes from an Iranian telecommunications company and was donat
 14) **Churn** - whether or not the customer churned in the 9-12 month period (1: churned, 0: remained)
 
 #### <ins>Problem Statement<ins>
+
+Retaining existing customers is more cost-effective than acquiring new ones. With this project my aim is to provide insights that help with customer retention efforts by:
+- Understanding churn drivers
+- Building a predictive model
+- Visualizing insights for business decisions
+
+### 📍 Exploratory Data Analysis (EDA) 
+
