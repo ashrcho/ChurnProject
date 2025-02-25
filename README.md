@@ -36,5 +36,6 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 - Building a predictive model
 - Visualizing insights for business decisions
 
-### 📍 Exploratory Data Analysis (EDA) 
+### 🔎 Exploratory Data Analysis (EDA) 
+#### <ins>Descriptive Statistics<ins>
 
