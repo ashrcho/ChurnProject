@@ -9,7 +9,7 @@ Churn or churn rate according to Investopedia is the "**rate at which customers 
 - Which types of customers are leaving
 - And at what rate they're leaving
 
-To drive the point further, without a thorough understanding of KPI metrics like Churn Rate you are effectively flying blind. Insights provided via data are the eyes and ears of a business. It only becomes possible to solve and understand a problem by becoming aware of its existance and depth. Current machine learning models provide us useful tools that help us in this endeavor of problem solving/analysis.  
+To drive the point further, without a thorough understanding of KPI metrics like Churn Rate you are effectively flying blind. Strategic insights provided via data are the eyes and ears of a business. It only becomes possible to solve and understand a problem by becoming aware of its existance and depth. Current machine learning models provide us useful tools that help us in this endeavor of problem solving/analysis.  
 
 #### <ins>Data<ins>
 
