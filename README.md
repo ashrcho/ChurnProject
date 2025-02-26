@@ -43,6 +43,8 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 ![Histogram](images/histograms.png)
 <br><br>
 ![ChurnBar](images/ChurnBar.png)
+<br><br>
+![ComplainsBar](images/complains.png)
 #### <ins>Multivariate Analysis<ins>
 ![heatmap](images/heatmap1.png)
 
