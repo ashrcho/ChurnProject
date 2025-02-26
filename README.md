@@ -38,7 +38,7 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 
 ### 🔎 Exploratory Data Analysis (EDA) 
 #### <ins>Descriptive Statistics<ins>
-![DescriptStat1](images/descriptstats1.png)![DescriptStat2](images/descriptstat.png)
+![DescriptStat1](images/descriptfrthistime.png)
 #### <ins>Univariate Analysis<ins>
 ![Histogram](images/Histogram.png)
 <br><br>
