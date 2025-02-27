@@ -39,6 +39,7 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 ### 🔎 Exploratory Data Analysis (EDA) 
 #### <ins>Descriptive Statistics<ins>
 ![DescriptStat1](images/descriptfrthistime.png)
+- Interesting how there are customers with 0 seconds of use. This could potentially point to customers facing technical issues trying to connect. If we tracked customers with 0 seconds of use their churn rate would most likely be high.
 #### <ins>Univariate Analysis<ins>
 ![Histogram](images/histograms.png)
 <br><br>
