@@ -44,7 +44,7 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 #### <ins>Univariate Analysis<ins>
 ![Histogram](images/histograms.png)
 - Majority of customers experience relatively low call failure.
-- Frequency of use and Seconds of use have a very similar distribution. 
+- Frequency-of-use and Seconds-of-use have a very similar distribution. 
 - Age data is pretty odd. Only recorded ages are 15, 25, 30, 45, and 55.
 
 ![ChurnBar](images/ChurnBar.png)
@@ -63,5 +63,8 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 - Inactive - 782 (24.8%)
 #### <ins>Multivariate Analysis<ins>
 ![heatmap](images/heatmap1.png)
-- Churn is the most correlated with status and complains at 0.5 and 0.53 respectively.
+- Churn is the most correlated with Status and Complains at 0.5 and 0.53 respectively.
+- As expected Frequency-of-use and Seconds-of-use are highly correlated.
+- Age and Age Group is highly correlated.
+- Interestingly, Frequency-of-SMS and Customer Value are highly correlated.
 ### 🤠 Data Wrangling 
