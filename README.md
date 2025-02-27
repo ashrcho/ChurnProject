@@ -64,8 +64,18 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 - Inactive - 782 (24.8%)
 #### <ins>Multivariate Analysis<ins>
 ![heatmap](images/heatmap1.png)
-- Churn is the most correlated with Status and Complains at 0.5 and 0.53 respectively.
-- As expected Frequency-of-use and Seconds-of-use are highly correlated.
-- Age and Age Group is highly correlated.
-- Interestingly, Frequency-of-SMS and Customer Value are highly correlated.
+- Churn is the most correlated with Status and Complains at r=0.5 and r=0.53 respectively.
+- As expected Frequency-of-use and Seconds-of-use are highly correlated at r=0.95.
+- Age and Age Group is highly correlated at r=0.96.
+- Interestingly, Frequency-of-SMS and Customer Value are highly correlated at r=0.92.
 ### 🤠 Data Wrangling 
+#### <ins>Feature Removal<ins>
+- Customer Value
+    - There is no explanation provided in the dataset's information on what Customer value is and how it was calculated. Doesn't help with interpretability in this scenario.
+    - Highly correlated with Frequency-of-SMS and we want to avoid multicollinearity. 
+- Age Group
+    - Highly correlated with Age and it provides less precise information than Age. 
+- Seconds of Use
+    - Highly correlated with Frequency-of-Use. Although this gives us duration of call information, I feel that # of calls placed is more relavant for our analysis. 
+- Complains
+    - Complains helps the model predict because if a customer has complained than its only natural that they are more likely to churn but it doesn't help us learn anything new about why they are churning (giving the model an easy out). By dropping Complains we force the model to find the underlying reasons as to why churn occurs. 
