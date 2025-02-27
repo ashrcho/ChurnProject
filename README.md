@@ -48,7 +48,8 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 - Age data is pretty odd. Only recorded ages are 15, 25, 30, 45, and 55.
 
 ![ChurnBar](images/ChurnBar.png)
-- We have an imbalanced target (Churn). One might think to utilize resampling techniques. However, in our case this would be a mistake because we need to be prioritizing interpretability, understanding the key drivers of churn, over pure model optimization. 
+- We have an imbalanced target (Churn). One might think to utilize resampling techniques. However, in our case this would be a mistake because we need to be prioritizing interpretability, understanding the key drivers of churn, over pure model optimization.
+- Compared to the [U.S. telecommunications industry average churn rate of 21%](https://www.statista.com/statistics/816735/customer-churn-rate-by-industry-us/?__sso_cookie_checker=failed) this companies performing better at 15.7%.   
 
 ![ComplainsBar](images/complains.png)
 - No Complaint - 2,909 (92.3%)
