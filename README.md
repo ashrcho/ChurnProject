@@ -40,19 +40,27 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 #### <ins>Descriptive Statistics<ins>
 ![DescriptStat1](images/descriptfrthistime.png)
 - There are customers with 0 seconds-of-use/frequency-of-use. This could potentially point to customers facing technical issues trying to connect. If we tracked customers with 0 seconds of use their churn rate would most likely be high.
-- Would be interesting to see at what level of call failure customers are more likely to churn.
+- Would be interesting to see what level of call failure customers are more likely to churn at.
 #### <ins>Univariate Analysis<ins>
 ![Histogram](images/histograms.png)
-<br><br>
+- Majority of customers experience relatively low call failure.
+- Frequency of use and Seconds of use have a very similar distribution. 
+- Age data is pretty odd. Only recorded ages are 15, 25, 30, 45, and 55.
+
 ![ChurnBar](images/ChurnBar.png)
 - We have an imbalanced target (Churn). One might think to utilize resampling techniques. However, in our case this would be a mistake because we need to be prioritizing interpretability, understanding the key drivers of churn, over pure model optimization. 
 
-<br><br>
 ![ComplainsBar](images/complains.png)
-<br><br>
+- No Complaint - 2,909 (92.3%)
+- Complaint - 241 (7.7%)
+
 ![TarrifBar](images/tarrifplan.png)
-<br><br>
+- Pay-As-You-Go - 2,905 (92.2%)
+- Contractual - 245 (7.8%)
+
 ![statusbar](images/statusbar.png)
+- Active - 2,368 (75.2%)
+- Inactive - 782 (24.8%)
 #### <ins>Multivariate Analysis<ins>
 ![heatmap](images/heatmap1.png)
 
