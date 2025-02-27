@@ -39,12 +39,14 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 ### 🔎 Exploratory Data Analysis (EDA) 
 #### <ins>Descriptive Statistics<ins>
 ![DescriptStat1](images/descriptfrthistime.png)
-- There are customers with 0 seconds of use. This could potentially point to customers facing technical issues trying to connect. If we tracked customers with 0 seconds of use their churn rate would most likely be high.
+- There are customers with 0 seconds-of-use/frequency-of-use. This could potentially point to customers facing technical issues trying to connect. If we tracked customers with 0 seconds of use their churn rate would most likely be high.
 - Would be interesting to see at what level of call failure customers are more likely to churn.
 #### <ins>Univariate Analysis<ins>
 ![Histogram](images/histograms.png)
 <br><br>
 ![ChurnBar](images/ChurnBar.png)
+- We have an imbalanced target (Churn). One might think to utilize resampling techniques. However, in our case this would be a mistake because we need to be prioritizing interpretability, understanding the key drivers of churn, over pure model optimization. 
+
 <br><br>
 ![ComplainsBar](images/complains.png)
 <br><br>
