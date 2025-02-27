@@ -33,8 +33,8 @@ The dataset I use comes from an Iranian telecommunications company and was donat
 
 Retaining existing customers is more cost-effective than acquiring new ones. With this project my aim is to provide insights that help with customer retention efforts by:
 - Understanding churn drivers
-- Building a predictive model
-- Visualizing insights for business decisions
+- Building a predictive model with Decision-Tree-Classifier 
+- Visualizing insights for business decisions as a dashboard in Tableau
 
 ### 🔎 Exploratory Data Analysis (EDA) 
 #### <ins>Descriptive Statistics<ins>
@@ -63,5 +63,5 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 - Inactive - 782 (24.8%)
 #### <ins>Multivariate Analysis<ins>
 ![heatmap](images/heatmap1.png)
-
+- Churn is the most correlated with status and complains at 0.5 and 0.53 respectively.
 ### 🤠 Data Wrangling 
