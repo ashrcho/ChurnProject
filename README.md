@@ -38,7 +38,16 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 
 ### 🔎 Exploratory Data Analysis (EDA) 
 #### <ins>Descriptive Statistics<ins>
-![DescriptStat1](images/descriptfrthistime.png)
+|       | Call Failure | Subscription Length | Charge Amount | Seconds of Use | Frequency of Use | Frequency of SMS | Distinct Called Numbers | Age  | Customer Value |
+|---------------|-------------|---------------------|---------------|----------------|------------------|------------------|------------------------|------|----------------|
+| **Count**     | 3150        | 3150                | 3150          | 3150           | 3150             | 3150             | 3150                   | 3150 | 3150           |
+| **Mean**      | 7.63        | 32.54               | 0.94          | 4472.46        | 69.46            | 73.17            | 23.51                   | 30.99 | 470.97         |
+| **Std Dev**   | 7.26        | 8.57                | 1.52          | 4197.91        | 57.41            | 112.24           | 17.22                   | 8.83  | 517.02         |
+| **Min**       | 0           | 3                   | 0             | 0              | 0                | 0                | 0                        | 15   | 0              |
+| **25%**       | 1           | 30                  | 0             | 1391.25        | 27               | 10               | 10                       | 25   | 113.80         |
+| **50%** | 6        | 35                  | 0             | 2990           | 54               | 21               | 21                       | 30   | 228.48         |
+| **75%**       | 12          | 38                  | 1             | 6478.25        | 100              | 87               | 34                       | 34   | 788.39         |
+| **Max**       | 36          | 47                  | 10            | 17090          | 255              | 522              | 97                       | 55   | 2165.28        |
 - There are customers with 0 seconds-of-use/frequency-of-use. This could potentially point to customers facing technical issues trying to connect. If we tracked customers with 0 seconds of use their churn rate would most likely be high.
 - Would be interesting to see what level of call failure customers are more likely to churn at.
 #### <ins>Univariate Analysis<ins>
