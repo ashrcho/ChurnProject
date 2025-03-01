@@ -49,7 +49,7 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 
 ![ChurnBar](images/ChurnBar.png)
 - We have an imbalanced target (Churn). One might think to utilize resampling techniques. However, in our case this would be a mistake because we need to be prioritizing interpretability, understanding the key drivers of churn, over pure model optimization.
-- Compared to the [U.S. telecommunications industry average churn rate of 21%](https://www.statista.com/statistics/816735/customer-churn-rate-by-industry-us/?__sso_cookie_checker=failed) this companies performing better at 15.7%.   
+- Compared to the [U.S. telecommunications industry average churn rate of 21%](https://www.statista.com/statistics/816735/customer-churn-rate-by-industry-us/?__sso_cookie_checker=failed) this company is performing better at 15.7%.   
 
 ![ComplainsBar](images/complains.png)
 - No Complaint - 2,909 (92.3%)
