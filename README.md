@@ -84,4 +84,7 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 I decided to use Decision Tree learning for this dataset because the algorithm excels at classification while also having high interpretability unlike black-box models like neural-network. Since the goal is prioritizing insights into the **why** rather than pure predicting power this choice is apt. 
 
 #### <ins>Initial Results<ins>
+[tree](images/dtreediagram.png)
+
+
 
