@@ -76,6 +76,8 @@ The dataset I use comes from an Iranian telecommunications company and was donat
 - As expected Frequency-of-use and Seconds-of-use are highly correlated at r=0.95.
 - Age and Age Group is highly correlated at r=0.96.
 - Interestingly, Frequency-of-SMS and Customer Value are highly correlated at r=0.92.
+
+![correlationbar](images/resizedoutput.png)
 ### 🤠 Data Wrangling 
 #### <ins>Feature Removal<ins>
 - Customer Value
