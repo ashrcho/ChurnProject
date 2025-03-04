@@ -1,4 +1,4 @@
-# Telecoms Churn Analysis + Dashboard
+# Telecoms Churn Analysis
 ### 📍 Overview 
 In this project I build a predictive churn model for a Telecommunications company using Python and create an interactive Tableau dashboard for intuitive insights.
 #### <ins>Problem Statement<ins>
