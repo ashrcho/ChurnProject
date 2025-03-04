@@ -1,6 +1,6 @@
 # Telecoms Churn Analysis
 ### 📍 Overview 
-In this project I build a predictive churn model for a Telecommunications company using Python and give business recommendations.
+In this project I build a predictive churn model for a Telecommunications company using Python and give relevant business recommendations.
 
 #### <ins>Problem Statement<ins>
 
