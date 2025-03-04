@@ -1,12 +1,12 @@
 # Telecoms Churn Analysis
 ### 📍 Overview 
-In this project I build a predictive churn model for a Telecommunications company using Python and create an interactive Tableau dashboard for intuitive insights.
+In this project I build a predictive churn model for a Telecommunications company using Python.
+
 #### <ins>Problem Statement<ins>
 
 Retaining existing customers is more cost-effective than acquiring new ones. With this project my aim is to provide insights that help with customer retention efforts by:
 - Understanding churn drivers
 - Building a predictive model with Decision-Tree-Classifier 
-- Visualizing insights for business decisions as a dashboard in Tableau
 ### 📖 Context 
 #### <ins>Churn<ins>
 Churn or churn rate according to Investopedia is the "**rate at which customers stop doing business with an entity.**" Understanding how churn affects your business is crucial. Good customer retention strategy starts with understanding: 
