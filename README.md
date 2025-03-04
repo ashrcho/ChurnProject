@@ -114,3 +114,6 @@ After testing different values/options with `max_depth`, `ccp_alpha`, `splitter`
 | Accuracy |
 |----------|
 | **0.93** |
+
+#### <ins>Classification Tree<ins>
+![treeclass](images/decision_tree-1.png)
