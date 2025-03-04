@@ -119,3 +119,7 @@ After testing different values/options with `max_depth`, `ccp_alpha`, `splitter`
 
 #### <ins>Classification Tree<ins>
 ![treeclass](images/decision_tree-1.png)
+
+### 💼 Results & Reccomendations
+#### <ins>Feature Importance<ins>
+![seabornfeature](images/seabornchart1.png)
