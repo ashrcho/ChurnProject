@@ -102,4 +102,15 @@ I decided to use Decision Tree learning for this dataset because the algorithm e
 |----------|
 | **0.93** |
 
+#### <ins>Hyperparameter Tuning<ins>
+After testing different values/options with `max_depth`, `ccp_alpha`, `splitter`, and other parameters I found that setting `max_depth=12` brought the best improvement in performance. 
+#### <ins>Post-tuning Results<ins>
+**Classification Report & Accuracy**:
+| Class          | Precision | Recall | F1-score | Support |
+|---------------|-----------|--------|----------|---------|
+| **Stayed (0)**  | 0.97      | 0.95   | 0.96     | 810     |
+| **Churned (1)** | 0.72      | 0.80   | 0.76     | 135     |
 
+| Accuracy |
+|----------|
+| **0.93** |
