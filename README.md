@@ -92,7 +92,7 @@ The dataset I use comes from an Iranian telecommunications company and was donat
     - Complains helps the model predict because if a customer has complained than its only natural that they are more likely to churn but it doesn't help us learn anything new about why they are churning (giving the model an easy out). By dropping Complains we force the model to find the underlying reasons as to why churn occurs.
 
 ### 🌲 Machine Learning Model - Decision Tree
-I decided to use Decision Tree learning for this dataset because the algorithm excels at classification while also having high interpretability unlike black-box models like neural-network. Since the goal is prioritizing insights into the **why** rather than pure predicting power this choice is apt. 
+I decided to use Decision Tree learning for this dataset because the algorithm excels at classification while also having high interpretability unlike black-box models like neural-network. Since the goal is prioritizing insights into the **why** rather than pure predicting power this choice is apt. I used a train-test split of 70-30.
 
 #### <ins>Initial Results<ins>
 **Classification Report & Accuracy**:
