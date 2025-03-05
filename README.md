@@ -164,18 +164,18 @@ K-Means Clustering can help us segment customers based on the top 7 features.
 <br><br>
 **Low-Risk Segments:** 
 
-Cluster 1
+- Cluster 1 (1.8% Churn Rate)
 
-Cluster 3
+- Cluster 3 (0.7% Churn Rate)
 
-Cluster 6
+- Cluster 6 (0.5% Churn Rate)
 
 **Medium-Risk Segments:** 
 
-Cluster 2
+- Cluster 2 (5.9% Churn Rate)
 
-Cluster 4
+- Cluster 4 (16.7% Churn Rate)
 
 **High-Risk Segment:** 
 
-Cluster 5
+- Cluster 5 (47.0% Churn Rate)
