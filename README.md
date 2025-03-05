@@ -135,4 +135,15 @@ The top 7 features ranked in order of importance are:
 7. Age
 
 #### <ins>K-Means Clustering<ins>
-Instead of setting thresholds (low, medium, and high risk) individually for the 7 most important features I felt that clustering would give us a bigger/clearer picture. It would show us what features are combining that result in higher/lower churn risks. 
+K-Means Clustering can help us segment customers based on the top 7 features. 
+
+![clusterchurn](images/ClusterChurn.png)
+
+| Churn_Cluster | Avg Status | Avg Frequency of use | Avg Subscription Length | Avg Frequency of SMS | Avg Distinct Called Numbers | Avg Call Failure | Avg Age   | Count |
+|--------------|--------|------------------|----------------------|------------------|-------------------------|-------------|------|---------------|
+| 1            | 1.00   | 82.81            | 31.12                | 26.30            | 33.83                   | 8.83        | 49.29 | 396           |
+| 2            | 1.00   | 77.29            | 36.05                | 35.32            | 25.11                   | 6.42        | 26.43 | 860           |
+| 3            | 1.00   | 183.80           | 34.18                | 67.31            | 47.96                   | 19.48       | 27.18 | 305           |
+| 4            | 1.00   | 37.20            | 16.72                | 66.81            | 13.64                   | 4.40        | 27.66 | 401           |
+| 5            | 2.00   | 23.97            | 34.74                | 15.28            | 11.08                   | 6.15        | 30.98 | 778           |
+| 6            | 1.00   | 72.96            | 36.65                | 318.30           | 25.23                   | 6.16        | 29.06 | 410           |
