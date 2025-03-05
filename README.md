@@ -124,3 +124,12 @@ After testing different values/options with `max_depth`, `ccp_alpha`, `splitter`
 ### 💼 Results & Reccomendations
 #### <ins>Feature Importance<ins>
 ![seabornfeature](images/seabornchart1.png)
+
+The top 7 features ranked in order of importance are:
+1. Status
+2. Frequency of Use
+3. Subscription Length
+4. Frequency of SMS
+5. Distinct Called Numbers
+6. Call Failure
+7. Age 
