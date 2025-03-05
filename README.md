@@ -8,6 +8,7 @@ Retaining existing customers is more cost-effective than acquiring new ones. Wit
 - Understanding churn drivers
 - Building a predictive model with Decision-Tree-Classifier
 - Offering actionable insights to key stakeholders
+<br><br>
 ### 📖 Context 
 #### <ins>Churn<ins>
 Churn or churn rate according to Investopedia is the "**rate at which customers stop doing business with an entity.**" Understanding how churn affects your business is crucial. Good customer retention strategy starts with understanding: 
@@ -35,7 +36,7 @@ The dataset I use comes from an Iranian telecommunications company and was donat
 12) **Age** - age of customer
 13) **Customer Value** - calculated value of customer
 14) **Churn** - whether or not the customer churned in the 9-12 month period (1: churned, 0: remained)
-
+<br><br>
 ### 🔎 Exploratory Data Analysis (EDA) 
 #### <ins>Descriptive Statistics<ins>
 |       | Call Failure | Subscription Length | Charge Amount | Seconds of Use | Frequency of Use | Frequency of SMS | Distinct Called Numbers | Age  | Customer Value |
@@ -79,6 +80,7 @@ The dataset I use comes from an Iranian telecommunications company and was donat
 - Interestingly, Frequency-of-SMS and Customer Value are highly correlated at r=0.92.
 
 ![correlationbar](images/resizedoutput.png)
+<br><br>
 ### 🤠 Data Wrangling 
 #### <ins>Feature Removal<ins>
 - Customer Value
@@ -90,7 +92,7 @@ The dataset I use comes from an Iranian telecommunications company and was donat
     - Highly correlated with Frequency-of-Use. Although this gives us duration of call information, I feel that # of calls placed is more relavant for our analysis. 
 - Complains
     - Complains helps the model predict because if a customer has complained than its only natural that they are more likely to churn but it doesn't help us learn anything new about why they are churning (giving the model an easy out). By dropping Complains we force the model to find the underlying reasons as to why churn occurs.
-
+<br><br>
 ### 🌲 Machine Learning Model - Decision Tree
 I decided to use Decision Tree learning for this dataset because the algorithm excels at classification while also having high interpretability unlike black-box models like neural-network. Since the goal is prioritizing insights into the **why** rather than pure predicting power this choice is apt. I used a train-test split of 70-30.
 
@@ -120,8 +122,8 @@ After testing different values/options with `max_depth`, `ccp_alpha`, `splitter`
 
 #### <ins>Classification Tree<ins>
 ![treeclass](images/decision_tree-1.png)
-
-### 💼 Results & Reccomendations
+<br><br>
+### 📊 Results 
 #### <ins>Feature Importance<ins>
 ![seabornfeature](images/seabornchart1.png)
 
@@ -181,3 +183,5 @@ K-Means Clustering can help us segment customers based on the top 7 features.
 **High-Risk Segment:** 
 
 - Cluster 5 (47.0% Churn Rate)
+<br><br>
+### 💼 Business Recommendations
