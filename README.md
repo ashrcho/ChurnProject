@@ -139,6 +139,17 @@ K-Means Clustering can help us segment customers based on the top 7 features.
 
 ![clusterchurn](images/ClusterChurn.png)
 
+**Cluster Segmentation Stats (Average)**
+
+| Churn | Status | Frequency of use | Subscription Length | Frequency of SMS | Distinct Called Numbers | Call Failure | Age   | Count |
+|--------------|--------|------------------|----------------------|------------------|-------------------------|-------------|------|---------------|
+| 1            | 1.00   | 82.81            | 31.12                | 26.30            | 33.83                   | 8.83        | 49.29 | 396           |
+| 2            | 1.00   | 77.29            | 36.05                | 35.32            | 25.11                   | 6.42        | 26.43 | 860           |
+| 3            | 1.00   | 183.80           | 34.18                | 67.31            | 47.96                   | 19.48       | 27.18 | 305           |
+| 4            | 1.00   | 37.20            | 16.72                | 66.81            | 13.64                   | 4.40        | 27.66 | 401           |
+| 5            | 2.00   | 23.97            | 34.74                | 15.28            | 11.08                   | 6.15        | 30.98 | 778           |
+| 6            | 1.00   | 72.96            | 36.65                | 318.30           | 25.23                   | 6.16        | 29.06 | 410           |
+
 **Cluster Segmentation Stats (Median)**
 
 | Cluster | Status | Frequency of use | Subscription Length | Frequency of SMS | Distinct Called Numbers | Call Failure | Age |
@@ -150,8 +161,7 @@ K-Means Clustering can help us segment customers based on the top 7 features.
 | 5            | 2.0    | 19.0            | 35.0                 | 10.5             | 9.0                    | 5.0         | 30.0 |
 | 6            | 1.0    | 63.0            | 37.0                 | 298.0            | 25.0                   | 6.0         | 30.0 |
 
-I chose to use Median because the features are not normally distributed. Outliers might give us averages unrepresentative of their cluster.
-
+<br><br>
 **Low-Risk Segments:** 
 
 Cluster 1
