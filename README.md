@@ -132,4 +132,7 @@ The top 7 features ranked in order of importance are:
 4. Frequency of SMS
 5. Distinct Called Numbers
 6. Call Failure
-7. Age 
+7. Age
+
+#### <ins>K-Means Clustering<ins>
+Instead of setting thresholds (low, medium, and high risk) individually for the 7 most important features I felt that clustering would give us a bigger/clearer picture. It would show us what features are combining that result in higher/lower churn risks. 
