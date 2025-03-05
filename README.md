@@ -160,7 +160,7 @@ Cluster 3
 
 Cluster 6
 
-**Medium-Risk Segment:** 
+**Medium-Risk Segments:** 
 
 Cluster 2
 
