@@ -161,7 +161,9 @@ K-Means Clustering can help us segment customers based on the top 7 features.
 | 5            | 2.0    | 19.0            | 35.0                 | 10.5             | 9.0                    | 5.0         | 30.0 |
 | 6            | 1.0    | 63.0            | 37.0                 | 298.0            | 25.0                   | 6.0         | 30.0 |
 
-<br><br>
+
+#### <ins>Low, Medium, High Risk Segmentation<ins>
+
 **Low-Risk Segments:** 
 
 - Cluster 1 (1.8% Churn Rate)
