@@ -185,3 +185,40 @@ K-Means Clustering can help us segment customers based on the top 7 features.
 - Cluster 5 (47.0% Churn Rate)
 <br><br>
 ### 💼 Business Recommendations
+
+- ⚠️ Medium Risk Segments:
+    - **Cluster 2**
+        - Observations:
+            - These customers have around the average # of calls placed but use SMS far below average.
+            - Their young age group suggests they may be price-sensitive or using digital alternatives for text(WhatsApp).
+        - Reccomendations:
+            -  Discount SMS usage in a bundle with voice.
+            -  Discount for Students. (build brand loyalty)
+     - **Cluster 4**
+        - Observations:
+            -  Short average subscription length and # of calls places, resulting in early-stage churn. They never integrate into service. 
+            - Low average call failure shows that short sub length is likely not due to technical issues.
+            - Churn likely attributed to price/behavior. 
+        - Reccomendations:
+            - Offer onboarding incentive (first month free, etc.)
+
+- 🚨 High Risk Segment:
+    - **Cluster 5**
+        - Observations:
+            - Lowest frequency of use, distinct called numbers, sms usage.
+            - Middle aged customers around 30. 
+            - Call Failure not lower than average so not an explanation.
+            - Again Churn likely attributed to price/behavior
+        - Reccomendations:
+            -  Further Analysis
+                -  Exit Survey: Understand the reason for churn: pricing, service quality, or lack of need.
+                -  Competitor Analysis
+            -  Onboarding incentive. 
+
+### ➡️ Next Steps
+
+1. Collect thorough data on Customer behavior (particularly for those who Churn)
+2. Conduct competitor analysis
+3. Adjust pricing accordingly.
+4. Offer loyalty/onboarding programs.
+5. Improve service quality according to needs of customers if possible.
