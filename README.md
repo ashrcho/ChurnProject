@@ -139,7 +139,7 @@ K-Means Clustering can help us segment customers based on the top 7 features.
 
 ![clusterchurn](images/ClusterChurn.png)
 
-| Cluster | Avg Status | Avg Frequency of use | Avg Subscription Length | Avg Frequency of SMS | Avg Distinct Called Numbers | Avg Call Failure | Avg Age   | Count |
+| Cluster | Status (Avg) | Frequency of use (Avg) | Subscription Length (Avg) | Frequency of SMS (Avg) | Distinct Called Numbers (Avg) | Call Failure (Avg) | Age (Avg)  | Count |
 |--------------|--------|------------------|----------------------|------------------|-------------------------|-------------|------|---------------|
 | 1            | 1.00   | 82.81            | 31.12                | 26.30            | 33.83                   | 8.83        | 49.29 | 396           |
 | 2            | 1.00   | 77.29            | 36.05                | 35.32            | 25.11                   | 6.42        | 26.43 | 860           |
