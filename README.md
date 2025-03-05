@@ -217,7 +217,7 @@ K-Means Clustering can help us segment customers based on the top 7 features.
 
 ### ➡️ Next Steps
 
-1. Collect thorough data on Customer behavior (particularly for those who Churn)
+1. Collect thorough data on customer behavior (particularly for those who Churn)
 2. Conduct competitor analysis
 3. Adjust pricing accordingly.
 4. Offer loyalty/onboarding programs.
